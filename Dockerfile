@@ -1,7 +1,7 @@
-FROM cypress/base:12.1.0
+FROM cypress/included:3.5.0
 
 LABEL "name"="cypress"
-LABEL "maintainer"="Jacob Lowe <jacoblowe2.0@gmail.com>"
+LABEL "maintainer"="Tan Nhu <tan@harness.io>"
 LABEL "version"="0.0.1"
 
 LABEL "com.github.actions.name"="Cypress.io for GitHub Actions"
