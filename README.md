@@ -5,8 +5,8 @@
 Executes a cypress command.
 
 ```shell
-action "E2E" {
-  uses = "jcblw/cypress@master"
-  args = ["run"]
+action "Cypress" {
+  uses = "wings-software/cypress@master"
+  args = ["run", "--config video=false -s cypress/integration/**/*.spec.js"]
 }
 ```
